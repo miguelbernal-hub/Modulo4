@@ -1,0 +1,17 @@
+<GridLayout rows="auto,*">
+
+  <Label
+    row="0"
+    text="Google Maps"
+    class="h2 text-center m-10">
+  </Label>
+
+  <MapView
+    row="1"
+    latitude="4.7110"
+    longitude="-74.0721"
+    zoom="12"
+    (ready)="onReady($event)">
+  </MapView>
+
+</GridLayout>

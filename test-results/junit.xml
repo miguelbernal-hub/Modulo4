@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuite name="Edge 152.0.0.0 (Windows 10)" package="" timestamp="2026-09-16T16:35:45" id="0" hostname="DESKTOP-Q9KMJFS" tests="2" errors="0" failures="0" time="0.016">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"/>
+  </properties>
+  <testcase name="readingReducer no debe agregar un producto duplicado" time="0.012" classname="readingReducer"/>
+  <testcase name="readingReducer debe agregar un producto al leer ahora" time="0.004" classname="readingReducer"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

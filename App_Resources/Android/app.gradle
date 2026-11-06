@@ -1,0 +1,26 @@
+// You can add your native dependencies here
+dependencies {
+  implementation 'com.google.firebase:firebase-messaging:24.1.2'
+}
+
+android {
+  compileSdkVersion 35
+  buildToolsVersion "35"
+  // ndkVersion ""
+
+  defaultConfig {
+    minSdkVersion 24
+    targetSdkVersion 35
+
+    // Version Information
+    versionCode 1
+    versionName "1.0.0"
+    
+    generatedDensities = []
+  }
+
+  aaptOptions {
+    additionalParameters "--no-version-vectors"
+  }
+}
+
